@@ -1,4 +1,3 @@
-/* Estos son los ficheros de cabecera usuales */
 #include <stdio.h>          
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -12,11 +11,7 @@ listen()
 while (1)
 {
    accept()
-   while (x)
-{
-      read()
-      write()
-}
+  aqui va el codigo de escribir etc etc
    close()
 }
 close()
