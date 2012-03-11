@@ -25,13 +25,11 @@ int main(int argc, char *argv[])
    }
 //Asigna la informacion del servidor a he
    if ((he=gethostbyname(argv[1]))==NULL){   
-      /* llamada a gethostbyname() */
       printf("gethostbyname() error\n");
       exit(-1);
    }
 	//definicion del socket	
    if ((fd=socket(AF_INET, SOCK_STREAM, 0))==-1){  
-      /* llamada a socket() */
       printf("socket() error\n");
       exit(-1);
    }
